@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+
+    <test name="Parameter 1">
+
+        <parameter name="count" value="1"/>
+
+        <classes>
+
+            <class name="org.epam.parameters.BiscuitParameterTest"/>
+
+        </classes>
+
+    </test>
+
+<!--    <test name="Parameter 5">-->
+
+<!--        <parameter name="count" value="5"/>-->
+
+<!--        <classes>-->
+
+<!--            <class name="org.epam.parameters.BiscuitParameterTest"/>-->
+
+<!--        </classes>-->
+
+<!--    </test>-->
+
+<!--    <test name="Parameter 3">-->
+
+<!--        <parameter name="count" value="3"/>-->
+
+<!--        <classes>-->
+
+<!--            <class name="org.epam.parameters.BiscuitParameterTest"/>-->
+
+<!--        </classes>-->
+
+<!--    </test>-->
+
+</suite>

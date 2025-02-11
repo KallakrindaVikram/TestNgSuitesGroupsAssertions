@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="putThings Suite">
+
+    <test name="putThings Test">
+
+        <groups>
+            <run>
+                <include name="put"/>
+<!--                <include name="take"/>-->
+<!--                <exclude name="exception"/>-->
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.epam.groups.BiscuitGroupsTest"/>
+            <class name="org.epam.groups.CoffeeGroupsTest"/>
+        </classes>
+    </test>
+
+</suite>
